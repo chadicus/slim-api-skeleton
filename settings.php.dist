@@ -3,5 +3,6 @@
 return [
     'settings' => [
         'displayErrorDetails' => true,
+        'pdo' => 'sqlite:' . sys_get_temp_dir() . '/slim_oauth2.db',
     ],
 ];
