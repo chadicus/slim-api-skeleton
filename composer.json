@@ -15,15 +15,5 @@
     },
     "config" : {
         "sort-packages": true
-    },
-    "autoload": {
-        "psr-4": {
-            "Api\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ApiTest\\": "tests"
-        }
     }
 }
